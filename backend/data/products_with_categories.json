@@ -1,0 +1,520 @@
+[
+  {
+    "_id": "1",
+    "name": "Aashirvaad Atta",
+    "price": 305,
+    "description": "Aashirvaad Superior MP Atta, 100% Whole Wheat Flour, 0% Maida, 5kg/6kg (Weight may vary). Aashirvaad prides itself in making 100% pure whole wheat atta with all its natural dietary fibres intact. To ensure high-quality atta reaches your home, Aashirvaad Shudh Chakki Atta is made using a 4-step advantage process: sourcing, cleaning, grinding, and nutrition lockage. With over 6,500 sourcing centres, Aashirvaad handpicks only the finest grains to guarantee premium quality.",
+    "image": "/images/products/atta.png",
+    "images": [
+      "/images/products/atta.png",
+      "/images/products/atta1.png",
+      "/images/products/atta2.png",
+      "/images/products/atta3.png"
+    ],
+    "category": "Grocery"
+  },
+  {
+    "_id": "2",
+    "name": "Yippee",
+    "price": 40,
+    "description": "Looking for a mouth-watering, slurpy bowl of noodles? Sunfeast YiPPee! Magic Masala with Added Veggies-The Better Instant Noodles Vegetarian  (280 g)",
+    "image": "/images/products/Yipee.png",
+    "images": [
+      "/images/products/Yipee.png",
+      "/images/products/Yipee1.png",
+      "/images/products/Yipee2.png",
+      "/images/products/Yipee3.png"
+    ],
+    "category": "Grocery"
+  },
+  {
+    "_id": "3",
+    "name": "Nescafe",
+    "price": 654,
+    "description": "Nescafe Original Extraforte (Extra Strong) Coffee Instant Coffee  (200 g)",
+    "image": "/images/products/nescafe.png",
+    "images": [
+      "/images/products/nescafe.png",
+      "/images/products/nescafe1.png",
+      "/images/products/nescafe2.png"
+    ],
+    "category": "Grocery"
+  },
+  {
+    "_id": "4",
+    "name": "Amul Cheese",
+    "price": 106,
+    "description": "Amul Plain Processed cheese Block  (200 g)",
+    "image": "/images/products/amul.png",
+    "images": [
+      "/images/products/amul.png",
+      "/images/products/amul1.png",
+      "/images/products/amul2.png"
+    ],
+    "category": "Grocery"
+  },
+  {
+    "_id": "5",
+    "name": "3 Roses",
+    "price": 430,
+    "description": "3 Roses Tea Box  (500 g)",
+    "image": "/images/products/3 Roses.png",
+    "images": [
+      "/images/products/3 Roses.png",
+      "/images/products/3Roses1.png",
+      "/images/products/3Roses2.png"
+    ],
+    "category": "Grocery"
+  },
+  {
+    "_id": "6",
+    "name": "Dry Fruit Mix",
+    "price": 300,
+    "description": "DAILYHERBS Mixed Dry fruits Almonds, Cashews, Raisins, Apricots, Kiwi  (1 x 500 g)",
+    "image": "/images/products/Dry Fruit Mix.png",
+    "images": [
+      "/images/products/Dry Fruit Mix.png",
+      "/images/products/Dry Fruit Mix 1.png",
+      "/images/products/Dry Fruit Mix 2.png"
+    ],
+    "category": "Grocery"
+  },
+  {
+    "_id": "7",
+    "name": "BlueBerry",
+    "price": 300,
+    "description": "Plum Natural Organic Fresh Dried Blueberries |Dry Fruits Unsweetened Blueberries| Superfood Blueberry  (1 x 500 g)",
+    "image": "/images/products/blueberry.png",
+    "images": [
+      "/images/products/blueberry.png",
+      "/images/products/blueberry1.png",
+      "/images/products/blueberry2.png",
+      "/images/products/blueberry3.png"
+    ],
+    "category": "Grocery"
+  },
+  {
+    "_id": "11",
+    "name": "Redmi Note 13 Pro 5G",
+    "price": 24990,
+    "description": "Elevate your mobile experience with the Redmi Note 13 Pro 5G: featuring a stunning 200MP OIS camera, vibrant 1.5K 120Hz AMOLED display, powerful Snapdragon® 7s Gen 2 processor, and all-day 5100mAh battery with 67W turbo charging. | 8 GB RAM | 128 GB ROM | 16.94 cm (6.67 inch) Display",
+    "image": "/images/products/redmi.png",
+    "images": [
+      "/images/products/redmi.webp",
+      "/images/products/redmi3.png",
+      "/images/products/redmi1.png",
+      "/images/products/redmi2.png"
+    ],
+    "category": "Mobiles"
+  },
+  {
+    "_id": "12",
+    "name": "IQOO Z9X",
+    "price": 14499,
+    "description": "Key Features: 4GB/6GB/8GB RAM | 128 GB ROM | 17.06cm (6.72-inch) | Full HD+ Display | 50 MP + 2 MP | 8MP  Front Camera | 6000 mAh  Battery | Snapdragon 6 Gen 1 5G Processor",
+    "image": "/images/products/iqoo.png",
+    "images": [
+      "/images/products/iqoo.png",
+      "/images/products/iqoo1.png",
+      "/images/products/iqoo2.png",
+      "/images/products/iqoo3.png"
+    ],
+    "category": "Mobiles"
+  },
+  {
+    "_id": "13",
+    "name": "Samsung S22",
+    "price": 37999,
+    "description": "Technical Details: OS Android 12.0 RAM 8 GB Product Dimensions 0.8 x 7.1 x 14.6 cm 167 Grams Batteries 1 Lithium Ion batteries required. (included) Item model number SM S901EZGDINU Wireless communication technologies Cellular Connectivity technologies Bluetooth, Wi Fi, USB GPS True Special features Fast Charging Support, Wireless Charging Display technology AMOLED , Front Audio Jack Type C, USB Form factor Bar Colour Green Battery Power Rating 3700",
+    "image": "/images/products/samsung.png",
+    "images": [
+      "/images/products/samsung.png",
+      "/images/products/samsung1.png",
+      "/images/products/samsung2.png",
+      "/images/products/samsung3.png"
+    ],
+    "category": "Mobiles"
+  },
+  {
+    "_id": "14",
+    "name": "Vivo T4",
+    "price": 21999,
+    "description": "Display: 17.19 cm (6.77 inch) 120Hz Curved AMOLED Display | Storage: 8GB RAM / 128GB Internal Memory | Processor: Snapdragon 7s Gen 3 Processor | Operating System: Funtouch OS 15 Based on Android 15",
+    "image": "/images/products/vivo.png",
+    "images": [
+      "/images/products/vivo.png",
+      "/images/products/vivo1.png",
+      "/images/products/vivo2.png",
+      "/images/products/vivo3.png"
+    ],
+    "category": "Mobiles"
+  },
+  {
+    "_id": "15",
+    "name": "Oppo Reno 14",
+    "price": 39999,
+    "description": "12 GB RAM | 256 GB ROM | 16.74 cm (6.59 inch) Display | 50MP + 8MP + 50MP | 50MP Front Camera | 6000 mAh Battery | Dimensity 8350 Processor",
+    "image": "/images/products/oppo.png",
+    "images": [
+      "/images/products/oppo.png",
+      "/images/products/oppo1.png",
+      "/images/products/oppo2.png"
+    ],
+    "category": "Mobiles"
+  },
+  {
+    "_id": "21",
+    "name": "Vedika Kota Zari Pattu in Lavender",
+    "price": 4980,
+    "description": "Luxury is at its best with this contemporary Vedika Kota Zari Pattu (Dress) in lavender. It showcases elegant potli details on the yoke and one sleeve. The modern collar neckline features intricate hand embroidery, giving the entire dress a royal look. The broad Pattu border on the flair is adorned with a pleated floral print, adding a touch of elegance to this exquisite piece. | Front Neck: 6 inches | What You Will Receive: 1 Long Dress | Dress: The model is wearing an XS-size dress | Model Height: 5.5 inches | Wash Care: Dry Clean",
+    "image": "/images/products/Women Trend.png",
+    "images": [
+      "/images/products/Women Trend1.png",
+      "/images/products/Women Trend2.png",
+      "/images/products/Women Trend3.png",
+      "/images/products/Women Trend4.png"
+    ],
+    "category": "Fashion"
+  },
+  {
+    "_id": "22",
+    "name": "Premium Cotton Shirt",
+    "price": 999,
+    "description": "Deer Embroidered Black Golden Premium Cotton Shirt | FABRIC : Satin Cotton | Collar : Spread | Pattern : Deer Embroidery On Plain Shirt | Design : Deer Embroidered | Embroidered Color : Golden | Sleeve : Full Sleeve | Hemline : Curved | FIT : Regular Fit",
+    "image": "/images/products/Men Trend.png",
+    "images": [
+      "/images/products/Men Trend1.png",
+      "/images/products/Men Trend2.png",
+      "/images/products/Men Trend3.png"
+    ],
+    "category": "Fashion"
+  },
+  {
+    "_id": "23",
+    "name": "Lehenga Choli",
+    "price": 1497,
+    "description": "Designer Lehenga Choli In Jorjet Fabrics With 3mm + 5mm Siqunce Embroidery Work Same As Picture With Micro Silk Inner + 11 inch Cancan pata with Double inner In Lehenga With Front & Back Blouse With Slives Embroidery Work Unstitched Blouse + Soft Net Dupata Work With Four Side Lace | Country of Origin : India",
+    "image": "/images/products/Girl Trend.png",
+    "images": [
+      "/images/products/Girl Trend1.png",
+      "/images/products/Girl Trend2.png",
+      "/images/products/Girl Trend3.png"
+    ],
+    "category": "Fashion"
+  },
+  {
+    "_id": "24",
+    "name": "Down Party Shirt",
+    "price": 599,
+    "description": "Name : Festival Wear Half & Half Boy's Summer Collection Long Sleeve Button Down Party Shirt | Fabric : Cotton | Sleeve Length : Long Sleeves | Pattern : Colorblocked | Always soft, always durable cotton for a look ready to greet the day, all day Occasions: Outdoor,School Uniform, Great Gifts for Birthday and Holiday.",
+    "image": "/images/products/Boys Trend.png",
+    "images": [
+      "/images/products/Boys Trend1.png",
+      "/images/products/Boys Trend2.png",
+      "/images/products/Boys Trend3.png"
+    ],
+    "category": "Fashion"
+  },
+  {
+    "_id": "25",
+    "name": "Fastrack Vyb Nimbus",
+    "price": 1995,
+    "description": "Fastrack Vyb Nimbus Quartz Analog Black Dial Two Toned Color Metal Strap Watch For Guys | Glass Material: Mineral Glass | Strap Material: Metal | Strap Color: Two Toned | Movement: Quartz | Collection: Vyb | Dial Color; Black",
+    "image": "/images/products/watch2.png",
+    "images": [
+      "/images/products/Watch.png",
+      "/images/products/watch1.png",
+      "/images/products/watch2.png",
+      "/images/products/watch3.png"
+    ],
+    "category": "Fashion"
+  },
+  {
+    "_id": "26",
+    "name": "Handbag",
+    "price": 333,
+    "description": "Blue Girls Hand-held Bag With Stylish flower design for Girls and Womens | Faux leather material red colored sling bag 18 centimeters height x 26 centimeters length x 10 centimeters width, 2 compartments and 1 pocket Do not expose to extreme heat & moisture, do not expose to extreme heat Material: high Quality Polyurethane PU leather with polyester lining inside",
+    "image": "/images/products/handbag.png",
+    "images": [
+      "/images/products/handbag.png",
+      "/images/products/handbag1.png",
+      "/images/products/handbag2.png"
+    ],
+    "category": "Fashion"
+  },
+
+  
+  {
+    "_id": "31",
+    "name": "HP Victus",
+    "price": 49999,
+    "description": "HP Victus Gaming Laptop, AMD Ryzen 5 5600H, AMD 4GB Radeon RX 6500M Graphics, 15.6-inch (39.6 cm), FHD, IPS, 8GB DDR4, 512GB SSD, Backlit KB, B&O (Win 11, Blue, 2.29 kg), fb0147AX, fb0184ax",
+    "image": "/images/products/victus.png",
+    "images": [
+      "/images/products/victus.png",
+      "/images/products/victus1.png",
+      "/images/products/victus2.png"
+    ],
+    "category": "Electronics"
+  },
+  {
+    "_id": "32",
+    "name": "TCL TV",
+    "price": 44990,
+    "description": "TCL 139 cm (55 inch) 4K QLED Google TV, 55P8K, Black | Resolution: 3840 x 2160 | Refresh Rate: 120 Hertz | Connectivity: 4 HDMI, LAN, 1 USB, Digital Audio Out",
+    "image": "/images/products/tv.png",
+    "images": [
+      "/images/products/tv.png",
+      "/images/products/tv1.png",
+      "/images/products/tv2.png",
+      "/images/products/tv3.png"
+    ],
+    "category": "Electronics"
+  },
+  {
+    "_id": "33",
+    "name": "Convection Microwave Oven",
+    "price": 9409,
+    "description": "LG 28 L Convection Microwave Oven MC2846SL ( Silver ) | Pleasing to the eyes and (especially) your stomach. This 28 L LG microwave oven comes with innovative features that will make cooking feel like a piece of cake (pun intended). It's equipped with a Diet Fry feature that lets you cook mouth-watering dishes with minimal oil. Its Pasteurise Milk feature helps retain the nutrition in the milk while eliminating bacteria. This saves you the hassle of boiling milk on a stove.",
+    "image": "/images/products/mwo.png",
+    "images": [
+      "/images/products/mwo.png",
+      "/images/products/mwo1.png",
+      "/images/products/mwo2.png",
+      "/images/products/mwo3.png"
+    ],
+    "category": "Electronics"
+  },
+  {
+    "_id": "34",
+    "name": "Tecno Sonic 1",
+    "price": 1190,
+    "description": "Tecno - Sonic-1 | Long up to 50 Hours Playback | The First in-Ear/Half-in-Ear Free Switch Technology Earbuds | Call Noise Cancellation Technology | IPX5 Water Resistant (Black)",
+    "image": "/images/products/tecno.png",
+    "images": [
+      "/images/products/tecno.png",
+      "/images/products/tecno1.png",
+      "/images/products/tecno2.png"
+    ],
+    "category": "Electronics"
+  },
+  {
+    "_id": "35",
+    "name": "Vacuum Cleaner",
+    "price": 2899,
+    "description": "EUREKA FORBES Quick Clean DX Dry Vacuum Cleaner with Reusable Dust Bag  (Red, Black). The Quick Clean DX is a portable vacuum cleaner that’s suitable for deep cleaning furniture and dry surfaces indoors. It has a powerful suction which effectively removes deeply embedded dust and dirt from furniture.",
+    "image": "/images/products/vacuum.png",
+    "images": [
+      "/images/products/vacuum.png",
+      "/images/products/vacuum1.png",
+      "/images/products/vacuum2.png",
+      "/images/products/vacuum3.png"
+    ],
+    "category": "Electronics"
+  }, 
+  {
+    "_id": "61",
+    "name": "Aflairza Liquid Foundation",
+    "price": 960,
+    "description": "Coverture Complete Liquid Foundation | Full Coverage, Long-Lasting, Lightweight & Water-Resistant | Infused with Ectoin for Hydration & Skin Protection | 7 Shades for All Skin Tones | Buildable & Comfortable Wear",
+    "image": "/images/products/aflairza.png",
+    "images": [
+      "/images/products/aflairza.png",
+      "/images/products/aflairza1.png",
+      "/images/products/aflairza2.png"
+    ],
+    "category": "Cosmetics"
+  },
+  {
+    "_id": "62",
+    "name": "Matrix Hair Serum",
+    "price": 590,
+    "description": "MATRIX Opti.Care Smooth Straight Professional Serum for Frizzy, Hair 72Hr Frizz Control, Used by 1 Lakh Hairstylists, with Shea Butter, 100 ml | Get your hands on the hair stylists favourite range for Smooth, Straight hair. Specially developed for unmanageable, frizzy hair, its super caring formulas are the experts favourite choice for smooth and straight professional hair results. Enriched with Shea butter, shampoo gently cleanses, moisturizes hair & tames frizz for 96Hr*",
+    "image": "/images/products/serum.png",
+    "images": [
+      "/images/products/serum.png",
+      "/images/products/serum1.png",
+      "/images/products/serum2.png"
+    ],
+    "category": "Cosmetics"
+  },
+  {
+    "_id": "63",
+    "name": "Lakme Eyeliner",
+    "price": 160,
+    "description": "This is a sample description for Beauty Product 3.",
+    "image": "/images/products/eyeliner.png",
+    "images": [
+      "/images/products/eyeliner.png",
+      "/images/products/eyeliner2.png",
+      "/images/products/eyeliner3.png",
+      "/images/products/eyeliner1.png"
+    ],
+    "category": "Cosmetics"
+  },
+  {
+    "_id": "64",
+    "name": "Maybelline New York Lipstick",
+    "price": 200,
+    "description": "Maybelline New York Color Sensational Creamy Matte Lipstick - 634 Bold Crimson | Intense color with comfortable matte finish, moisturizing formula with honey nectar, smooth and creamy application",
+    "image": "/images/products/lipstick.png",
+    "images": [
+      "/images/products/lipstick.png",
+      "/images/products/lipstick1.png",
+      "/images/products/lipstick2.png"
+    ],
+    "category": "Cosmetics"
+  },
+  {
+    "_id": "65",
+    "name": "Denver Perfume",
+    "price": 230,
+    "description": "Caliber Deo 165ml | Denver Deodorant Body Spray For Men With A Carefully Blended Fragrance Mix And A Long Lasting Deo Protection Against Body Odors, To Keep You Delightfully Fresh And Confident Throughout The Day.The Essential Products You Need To Start Your Perfect Day With Freshness.",
+    "image": "/images/products/perfumme.png",
+    "images": [
+      "/images/products/perfumme.png",
+      "/images/products/perfumme1.png",
+      "/images/products/perfumme2.png",
+      "/images/products/perfumme3.png"
+    ],
+    "category": "Cosmetics"
+  },
+ 
+  {
+    "_id": "71",
+    "name": "Kellogg's Chocos",
+    "price": 145,
+    "description": "Kellogg's Chocos Crunchy Bites | Source of Calcium & Fibre, High Protein | Kids Breakfast Pouch  (375 g). The Kellogg's Chocos Crunchy Bites is a tasty and nourishing breakfast option for kids. This food item contains whole grain, fibre, protein, and calcium.",
+    "image": "/images/products/chocos.png",
+    "images": [
+      "/images/products/chocos.png",
+      "/images/products/chocos1.png",
+      "/images/products/chocos2.png"
+    ],
+    "category": "Food & Snacks"
+  },
+  {
+    "_id": "72",
+    "name": "Makhana Combo Pack",
+    "price": 270,
+    "description": "Makhana Combo Pack of 3 Peri Peri Flavour Healthy & Crunchy Snacks | Makhana Combo Pack of 3 - Peri Peri Flavour | Healthy & Crunchy Snacks",
+    "image": "/images/products/makhana.png",
+    "images": [
+      "/images/products/makhana.png",
+      "/images/products/makhana1.png",
+      "/images/products/makhana2.png",
+      "/images/products/makhana3.png"
+    ],
+    "category": "Food & Snacks"
+  },
+  {
+    "_id": "73",
+    "name": "Pringles Original Potato Chips (134 g)",
+    "price": 150,
+    "description": "Ingredients: Dried Potato, Edible Vegetable Oil, Palm Oil, Corn Flour, Wheat Starch, Salt, Maltodextrin | Iconic and irresistible snack for all ages | The perfect balance of salty savoury in each bite | Unique shape for easy stackability and resealable can for added convenience.",
+    "image": "/images/products/pringles.png",
+    "images": [
+      "/images/products/pringles.png",
+      "/images/products/pringles1.png",
+      "/images/products/pringles2.png",
+      "/images/products/pringles3.png"
+    ],
+    "category": "Food & Snacks"
+  },
+  {
+    "_id": "74",
+    "name": "Lays Variety Pack",
+    "price": 450,
+    "description": "Lays Chips 4 Flavor Variety Pack 1 Oz Single Serve Bags 40 Pack",
+    "image": "/images/products/lays.png",
+    "images": [
+      "/images/products/lays.png",
+      "/images/products/lays1.png",
+      "/images/products/lays2.png"
+    ],
+    "category": "Food & Snacks"
+  },
+  {
+    "_id": "75",
+    "name": "Kerala Banana Chips",
+    "price": 50,
+    "description": "Beyond Snacks Original Style Kerala Banana Chips are thin slices of banana. These crispy, salty and sweet chips have originated from Kerala and are enjoyed by all age groups. Besides being an anytime snack, they are also enjoyed during festivals and other celebrations. Buy this product online today.",
+    "image": "/images/products/chips.png",
+    "images": [
+      "/images/products/chips.png",
+      "/images/products/chips1.png",
+      "/images/products/chips2.png"
+    ],
+    "category": "Food & Snacks"
+  },
+ 
+  {
+    "_id": "81",
+    "name": "Beyblade Cobalt Dragoon",
+    "price": 660,
+    "description": "Beyblade X Starter Cobalt Dragoon. Unleash the power of the Cobalt Dragoon with the Original Takara Tomy Beyblade X BX-34 set! This powerful Beyblade boasts a sleek design, a balanced weight distribution, and an aggressive attack type, making it a formidable opponent in the arena.",
+    "image": "/images/products/beyblade.png",
+    "images": [
+      "/images/products/beyblade.png",
+      "/images/products/beyblade1.png",
+      "/images/products/beyblade2.png",
+      "/images/products/beyblade3.png"
+    ],
+    "category": "Toys"
+  },
+  {
+    "_id": "82",
+    "name": "Wembley Remote Control Car",
+    "price": 845,
+    "description": "Wembley High Speed Mini 1:24 Scale Rechargeable Remote Control car with Lithium Battery  (Black and Orange) | Wembley Racer car includes 1 car, 1 Remote control, 1 Charger, and 1 Lithium Ion rechargeable batteries. | The vehicle toy includes 3 rechargeable lithium-ion battery of 1.2 V (included) which will be used in car. Radio Controller requires 2X1.5 V AA non-rechargeable fresh batteries. NOTE: Non rechargeable batteries are not included ) |",
+    "image": "/images/products/car.png",
+    "images": [
+      "/images/products/car.png",
+      "/images/products/car1.png",
+      "/images/products/car2.png",
+      "/images/products/car3.png"
+    ],
+    "category": "Toys"
+  },
+  {
+    "_id": "83",
+    "name": "Transformers",
+    "price": 425,
+    "description": "ZUNBELLA 2in1 Automatic Convertible Transforming Robot Car Toy with Light & Sound for Kid  (Multicolor). Robot Races Car Toy Battery Operated 2 in 1 Transform Car Toy with 4D Light Bright Lights and Music. Made of Non-Toxic Material Product colour may very as per stock availability Improves hand eye coordination, muscular development, distinguishing and identification abilities, memory building, balancing and sensory perception",
+    "image": "/images/products/transformers.png",
+    "images": [
+      "/images/products/transformers.png",
+      "/images/products/transformers1.png",
+      "/images/products/transformers2.png",
+      "/images/products/transformers3.png"
+    ],
+    "category": "Toys"
+  },
+  {
+    "_id": "84",
+    "name": "Barbie Doll",
+    "price": 750,
+    "description": "Barbie Made to Move Volleyball Player doll is ready to jump into the game! She has 22 joints so kids can help her serve, pass, and spike the ball -- also included. Always ready to play, she comes dressed in her uniform complete with a top, shorts, and kneepads. Go number 59! ",
+    "image": "/images/products/barbie.png",
+    "images": [
+      "/images/products/barbie.png",
+      "/images/products/barbie1.png",
+      "/images/products/barbie2.png"
+    ],
+    "category": "Toys"
+  },
+  {
+    "_id": "85",
+    "name": "Rubik's Cube 5x5",
+    "price": 299,
+    "description": "SCRATCH-PROOF FRSOTED SURFACE - No scratches, allowing for greater longevity. No reflective with a low refractive index, allowing for color recognition even in poor lighting conditions. No fingerprints, giving the cube a cleaner look. Gives the cube a more tactile appearance. The bright colors scheme is more harmoniously coordinated, more beautiful, and provides easier color distinction ATNI-STICK DESIGN - design Great corner cutting, Tension adjustable. Difficult to pop, Good control of the cube. Excellent stability. The edge piece contact surface and feet together feature anti-stick grooves, creating outstanding anti-stick ability",
+    "image": "/images/products/cube.png",
+    "images": [
+      "/images/products/cube.png",
+      "/images/products/cube1.png",
+      "/images/products/cube2.png",
+      "/images/products/cube3.png"
+    ],
+    "category": "Toys"
+  }
+]

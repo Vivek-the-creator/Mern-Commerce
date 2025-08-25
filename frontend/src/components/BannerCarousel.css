@@ -1,0 +1,23 @@
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 15px;
+  padding: 5px;
+  background: #f1f1f1;
+}
+
+.banner {
+  min-width: 100%;
+  position: relative;
+  padding: 0px;
+  scroll-snap-align: center;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 15px;
+  height: 300px;
+}
+
+
