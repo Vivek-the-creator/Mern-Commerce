@@ -10,13 +10,23 @@ const SearchResults = () => {
   const query = useQuery().get('query')?.toLowerCase();
 
   useEffect(() => {
+    if (!query) return;
     fetch('http://localhost:5000/api/products')
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to fetch products');
+        return res.json();
+      })
       .then((products) => {
-        const filtered = products.filter((p) =>
-          p.name.toLowerCase().includes(query)
-        );
-        setResults(filtered);
+        if (Array.isArray(products)) {
+          const filtered = products.filter((p) =>
+            p.name?.toLowerCase().includes(query)
+          );
+          setResults(filtered);
+        }
+      })
+      .catch((err) => {
+        console.error('Error fetching search results:', err);
+        setResults([]);
       });
   }, [query]);
 

@@ -19,20 +19,29 @@ const CheckoutPage = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
     const handleSubmit = async (e) => {
-    e.preventDefault();
+      e.preventDefault();
 
-    await fetch('http://localhost:5000/api/orders', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-        ...formData,
-        items: cartItems,
-        total,
-        }),
-    });
+      try {
+        const res = await fetch('http://localhost:5000/api/orders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            ...formData,
+            items: cartItems,
+            total,
+          }),
+        });
 
-    setSubmitted(true);
-    setCartItems([]);
+        if (!res.ok) {
+          throw new Error('Failed to place order');
+        }
+
+        setSubmitted(true);
+        setCartItems([]);
+      } catch (err) {
+        console.error('Checkout error:', err);
+        alert('Could not place order. Please make sure backend server is reachable.');
+      }
     };
 
 

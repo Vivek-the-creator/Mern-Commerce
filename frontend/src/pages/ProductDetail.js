@@ -10,10 +10,19 @@ const ProductDetail = () => {
 
   useEffect(() => {
     fetch('http://localhost:5000/api/products')
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to fetch products');
+        return res.json();
+      })
       .then((products) => {
-        const match = products.find((p) => p._id === id);
-        setProduct(match);
+        if (Array.isArray(products)) {
+          const match = products.find((p) => p._id === id);
+          setProduct(match);
+        }
+      })
+      .catch((err) => {
+        console.error('Error fetching product detail:', err);
+        setProduct(null);
       });
   }, [id]);
 

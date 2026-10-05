@@ -4,8 +4,10 @@ import { useNavigate } from 'react-router-dom';
 import { useUser } from '../context/UserContext';
 import './Auth.css';
 
+import { Link } from 'react-router-dom';
+
 const RegisterPage = () => {
-  const { setUser } = useUser();
+  const { register } = useUser();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ name: '', email: '', password: '' });
 
@@ -14,17 +16,9 @@ const RegisterPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch('http://localhost:5000/api/users/register', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData),
-    });
-    const data = await res.json();
-    if (res.ok) {
-      setUser(data);
+    const success = await register(formData.name, formData.email, formData.password);
+    if (success) {
       navigate('/');
-    } else {
-      alert(data.error || 'Registration failed');
     }
   };
 
@@ -60,7 +54,7 @@ const RegisterPage = () => {
         </form>
 
         <p className="auth-footer">
-          Already have an account? <a href="/login">Login here</a>
+          Already have an account? <Link to="/login">Login here</Link>
         </p>
       </div>
     </div>

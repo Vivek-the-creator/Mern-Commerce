@@ -45,30 +45,38 @@ const Home = ({ products = [], addToCart }) => {
       <BannerCarousel />
 
       {/* Category-wise Product Sections */}
-      {categories.map((cat) => (
-        <div key={cat.name} id={cat.name.toLowerCase().replace(' ', '-')}>
-          <h2>🛒 {cat.name}</h2>
-          <div className="horizontal-scroll">
-            {products
-              .filter((p) => p.category === cat.name)
-              .map((product) => (
-                <div key={product._id} className="product-item">
-                  <Link to={`/product/${product._id}`} className="card">
-                    <img src={product.image} alt={product.name} />
-                    <h3>{product.name}</h3>
-                    <p>₹{product.price}</p>
-                  </Link>
-                  <button
-                    onClick={() => handleAdd(product)}
-                    className="btn"
-                  >
-                    {addedProductId === product._id ? 'Added to Cart' : 'Add to Cart'}
-                  </button>
-                </div>
-              ))}
+      {categories.map((cat) => {
+        const categoryProducts = products.filter(
+          (p) => p.category && p.category.trim().toLowerCase() === cat.name.trim().toLowerCase()
+        );
+
+        return (
+          <div key={cat.name} id={cat.name.toLowerCase().replace(/ /g, '-')}>
+            <h2>🛒 {cat.name}</h2>
+            <div className="horizontal-scroll">
+              {categoryProducts.length > 0 ? (
+                categoryProducts.map((product) => (
+                  <div key={product._id} className="product-item">
+                    <Link to={`/product/${product._id}`} className="card">
+                      <img src={product.image} alt={product.name} />
+                      <h3>{product.name}</h3>
+                      <p>₹{product.price}</p>
+                    </Link>
+                    <button
+                      onClick={() => handleAdd(product)}
+                      className="btn"
+                    >
+                      {addedProductId === product._id ? 'Added to Cart' : 'Add to Cart'}
+                    </button>
+                  </div>
+                ))
+              ) : (
+                <p style={{ padding: '10px', color: '#666' }}>No products available in this category.</p>
+              )}
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };

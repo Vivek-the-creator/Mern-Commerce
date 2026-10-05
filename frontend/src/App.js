@@ -11,7 +11,6 @@ import Navbar from './components/Navbar'; // ✅ Import Navbar
 import { useCart } from './context/CartContext';
 import './App.css';
 import SearchResults from './pages/SearchResults';
-import ProductDetail from './pages/ProductDetail';
 import ProductPage from './pages/ProductPage'; 
 
 
@@ -21,8 +20,15 @@ function App() {
 
   React.useEffect(() => {
     fetch('http://localhost:5000/api/products')
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
+      .then((res) => {
+        if (!res.ok) throw new Error('Network response was not ok');
+        return res.json();
+      })
+      .then((data) => setProducts(data))
+      .catch((err) => {
+        console.error('Error fetching products:', err);
+        setProducts([]);
+      });
   }, []);
 
   return (
@@ -36,7 +42,6 @@ function App() {
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/orders" element={<OrderHistory />} />
         <Route path="/search" element={<SearchResults />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/product/:id" element={<ProductPage />} />
       </Routes>
     </>
